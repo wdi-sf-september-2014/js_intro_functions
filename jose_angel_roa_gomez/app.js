@@ -21,6 +21,9 @@ var calculateAge = function(birth_year, current_year) {
 }
 
 calculateAge(1971, 2014);
+//result -> alert -> "You are either 43 or 42" 
+
 
 // with Bonus
 calculateAge(1971, new Date().getFullYear() );
+//result -> alert -> "You are either 43 or 42" 
